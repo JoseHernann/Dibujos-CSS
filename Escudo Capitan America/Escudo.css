@@ -1,0 +1,81 @@
+.escudo{
+    width: 450px; height: 450px; 
+    position: relative;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cir2 ,.cir3 ,.cir4{
+    position:absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.cir1{
+    width: 60vh;
+    height: 60vh;
+    
+    border-radius: 50%;
+    background: red;
+    position: relative;
+    box-shadow: 0vh 0 15vh rgb(255, 133, 133);
+}
+.cir2{
+    width: 50vh;
+    height: 50vh;
+   
+    border-radius: 50%;
+    background: white;
+}
+.cir3{
+    width: 34vh;
+    height: 34vh;
+   
+    border-radius: 50%;
+    background: rgb(247, 2, 2);
+}
+.cir4{
+    width: 22vh;
+    height: 22vh;
+    
+    border-radius: 50%;
+    background: rgb(0, 38, 255);
+}
+.star:after ,.star:before ,.star{
+    width: 0;
+    border-color: transparent transparent white transparent ;
+    border-width: 0 8.5vh 7.5vh 8.5vh ;
+    border-style: solid;
+    position: absolute;
+    transform: rotate(180deg);
+    margin-top:7.7vh;
+    margin-left: 2.9vh;
+    
+}
+.star:before{
+    content: "";
+    margin-top: -0vh;
+    margin-left: -8.1vh;
+    transform: rotate(70deg);
+}
+.star:after{
+    content: "";
+    margin-top: -0vh;
+    margin-left: -9vh;
+    transform: rotate(-70deg);
+}
+body{
+	background: #bc0005;
+}
+/*
+   _           _____ _             ____              
+| | | |_   _    |_   _(_) __ _ _ __ | __ )  __ _  ___  
+| |_| | | | |_____| | | |/ _` | '_ \|  _ \ / _` |/ _ \ 
+|  _  | |_| |_____| | | | (_| | | | | |_) | (_| | (_) |
+|_| |_|\__,_|     |_| |_|\__,_|_| |_|____/ \__,_|\___/ 
+                                                       
+*/
